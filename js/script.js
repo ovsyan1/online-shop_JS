@@ -60,8 +60,8 @@ nintendoBrand2.addEventListener('click',()=>{
 })
 
 let newProducts = getNewProducts()//copy
-// init();
-// setInterval(nextSlider,5000)
+init();
+setInterval(nextSlider,5000)
 sortByAvailable()
 onLoadCartNumbers();
 displayCart();
