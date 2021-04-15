@@ -9,7 +9,7 @@ function getPaginate() {
     document.querySelector('.next-button-pag').addEventListener('click', nextPage)
     document.querySelector('.prev-button-pag').addEventListener('click', prevPage)
     items = document.querySelectorAll('.page-num')
-    window.addEventListener('resize', init);
+    // window.addEventListener('resize', init);
     for (let item of items) {
         item.addEventListener('click', function () {
             showPage(this);
